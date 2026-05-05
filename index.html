@@ -977,6 +977,7 @@
     /* ─── RESPONSIVE ──────────────────────────────────────────── */
     @media (max-width: 1024px) {
       .services-grid { grid-template-columns: 1fr; gap: 20px; }
+      .testimonios-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
       .filosofia-inner { grid-template-columns: 1fr; gap: 48px; }
       .proceso-steps { grid-template-columns: 1fr; gap: 48px; }
       .proceso-steps::before { display: none; }
@@ -991,6 +992,9 @@
       .btn-nav { display: none; }
       .hamburger { display: flex; }
       .hero-stats { gap: 32px; }
+      .testimonios-grid { grid-template-columns: 1fr; gap: 20px; }
+      .testi-card { padding: 28px 24px; }
+      .testi-quote { font-size: 0.9rem; }
       .form-row { grid-template-columns: 1fr; }
       .footer-top { grid-template-columns: 1fr; }
       .contact-form { padding: 28px 24px; }
@@ -1051,11 +1055,7 @@
   <div class="hero-glow"></div>
   <div class="container">
     <div class="hero-content">
-      <div class="hero-eyebrow">
-        <span class="hero-eyebrow-line"></span>
-        <span class="hero-eyebrow-text">BH Media · AI & Automations</span>
-      </div>
-      <h1 class="hero-h1">
+<h1 class="hero-h1">
         Sistemas de IA que<br/>
         <em>escalan</em> tu negocio.
       </h1>
