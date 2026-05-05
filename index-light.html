@@ -99,7 +99,13 @@
       line-height: 1;
       color: var(--deep-blue);
     }
-    .logo-bh span { color: var(--electric-blue); }
+    .logo-bh .logo-h { color: var(--electric-blue); }
+    .logo-bh .logo-media {
+      font-weight: 500;
+      color: var(--deep-blue);
+      opacity: 0.65;
+      letter-spacing: -0.01em;
+    }
     .logo-tag {
       font-family: var(--font-mono);
       font-size: 0.6rem;
@@ -879,7 +885,13 @@
       letter-spacing: -0.02em;
       color: #fff;
     }
-    .footer-logo-bh span { color: var(--electric-blue); }
+    .footer-logo-bh .logo-h { color: var(--electric-blue); }
+    .footer-logo-bh .logo-media {
+      font-weight: 500;
+      color: #fff;
+      opacity: 0.55;
+      letter-spacing: -0.01em;
+    }
     .footer-logo-tag {
       font-family: var(--font-mono);
       font-size: 0.58rem;
@@ -989,7 +1001,7 @@
 <header id="header">
   <div class="header-inner">
     <a href="#" class="logo">
-      <span class="logo-bh">B<span>H</span></span>
+      <span class="logo-bh">B<span class="logo-h">H</span><span class="logo-media"> Media</span></span>
       <span class="logo-tag">AI & Automations</span>
     </a>
     <nav class="nav">
@@ -1395,7 +1407,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <div class="footer-logo">
-          <span class="footer-logo-bh">B<span>H</span></span>
+          <span class="footer-logo-bh">B<span class="logo-h">H</span><span class="logo-media"> Media</span></span>
           <span class="footer-logo-tag">AI & Automations</span>
         </div>
         <div class="footer-tagline">
