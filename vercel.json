@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "bhmedia-landing",
+  "builds": [{ "src": "index-light.html", "use": "@vercel/static" }],
+  "routes": [{ "src": "/", "dest": "/index-light.html" }]
+}
